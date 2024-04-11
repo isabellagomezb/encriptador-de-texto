@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="img/Logo2xblanco.png" class="logo"></h1>
+                <h1 class="titulo-principal">Encriptador de texto</h1>
+            </div>
+        </header>
+
+        
+        <main>
+            <section class="encriptador">
+                <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="instruccion">
+                    <p>&#9888; Solo minúsculas y sin acentos</p>
+                </div>
+                <div id="buttons" class="botones">
+                    <button class="boton-encriptar">Encriptar</button>
+                    <button class="boton-desencriptar">Desencriptar</button>
+                </div>
+            </section>
+            
+            <section class=recuadro>
+                <div class= no-encontrado>
+                    <img class="img-robot" src="img/robot.png" alt="Imagen del mensaje no encontrado">
+                    <p class="mensaje-uno">Ningún mensaje fue encontrado</p>
+                    <p class="mensaje-dos">Ingresa el texto que desea encriptar o desencriptar </p>
+                </div>
+                <textarea type="mensaje" class="evaluar" readonly></textarea>
+                <button class="boton-copiar">Copiar</button>
+            </section>
+        
+        </main>
+        
+        <footer>
+            <p class="copyright"> &copy Copyright- Encriptador de texto - Desarrollado por IGB - 2024</p>
+            <a href="www.linkedin.com/in/isabella-gómez-ds">
+                <img src="img/linkedin.png" alt="Logo Linkedin" class="linkedin">
+            </a>
+            <a href="https://github.com/isabellagomezb?tab=repositories">
+                <img src="img/github.png" alt="logo Github" class="git">
+            </a>
+        </footer>
+        <script src="encriptador.js"></script>
+    </body>
+</html>

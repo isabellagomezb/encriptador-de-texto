@@ -1,0 +1,414 @@
+body{
+    background-color: rgb(0, 27, 94);
+    font-family: "Truculenta", sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.caja{
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.logo{
+    display: block;
+    width: 40%;
+    margin: 30px 0;
+}
+
+.titulo-principal{
+    width: 700px;
+    color: aliceblue;
+    text-shadow: 2px 3px 4px white;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 10%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.encriptador{
+    width: 57%;
+    margin: 40px 3.5% 40px 6%;
+}
+
+.encriptar{
+    width: 920px;
+    height:540px ;
+    resize: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    background-color: rgb(0, 12, 52) ;
+    padding: 20px;
+    box-sizing: border-box;   
+    box-shadow: inset 0 0 10px #ffffff;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.encriptar::placeholder{
+    color: rgba(222, 222, 222, 0.728);
+}
+
+.recuadro{
+    width: 400px;
+    height: 700px;
+    background-color: rgb(0, 12, 52);
+    margin-left:0;
+    position: relative;
+    border: 2px solid #FFFFFF; 
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.no-encontrado{
+    width: 350px;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.img-robot{
+    background:rgb(0, 12, 52); 
+    width: 600px;
+    height: auto;
+}
+
+.mensaje-uno{
+    margin-top: 20px;
+    font-size: 31px;
+    text-align:center;
+    color: #7ae2ff;
+    font-weight: bold;
+}
+
+.mensaje-dos{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #FFFFFF; 
+    line-height: 110%;
+}
+
+.evaluar{
+    width: 350px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    font-size: 24px;
+    margin-left:3px;
+    line-height: 40px;
+    color:rgba(222, 222, 222, 0.728);
+    background: transparent;
+    border-radius: 10px;
+    border: none;
+    resize: none;
+  
+}
+
+.evaluar:focus{
+    outline: none;
+}
+
+.boton-copiar{
+    width: 150px;
+    height: 67px;
+    font-size: 20px;
+    font-weight: 700;
+    bottom: 0;
+    margin: 25px;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    color: rgb(0, 12, 52);
+    text-align: center;
+    background: #6adfff;
+    border-color: #6adfff;;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.boton-copiar:hover{
+    background: #a0eaff;
+    transform: scale(1.1);
+    margin: center;
+}
+
+.instruccion{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: justify;
+    margin-left: 35%;
+}
+
+.botones{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton-encriptar{
+    width: 200px;
+    height: 67px;
+    margin-left: -12%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(0, 12, 52);
+    border-radius: 16px;
+    border-color: #2ad1ff;
+    background-color: #2ad1ff;
+    cursor:pointer;
+    transition: 1s all;
+}
+
+.boton-encriptar:hover{
+    background: #a0eaff;
+        transform: scale(1.1);
+        margin: center;
+}
+
+.boton-desencriptar{
+    width: 200px;
+    height: 67px;
+    margin-left: 2.5%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(0, 12, 52);
+    border-radius: 16px;
+    border-color: #2ad1ff;
+    background-color: #2ad1ff;
+    cursor:pointer;
+    transition: 1s all;
+}
+
+.boton-desencriptar:hover{
+    background: #a0eaff;
+        transform: scale(1.1);
+        margin: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.copyright{
+    font-size: 20px;
+    font-weight: 400;
+    color:#ffffffd8;
+}
+
+.linkedin, .git{
+    width: 30px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:768px){
+    body{
+        width: 950px;
+        height:2150px;
+    }
+
+    header{
+        width: 950px;
+        height: 240px;
+    }
+
+    .logo{
+        width: 350px;
+    }
+
+    .titulo-principal{
+        font-size: 80px;
+    }
+
+    main{
+        width: 950px;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 20px 0;
+    }
+
+    .encriptador{
+        width: 850px;
+    }
+    .encriptar{
+        width: 850px;
+        font-size: 45px;
+    }
+
+    .instruccion{
+        width: 820px;
+        font-family:Arial, Helvetica, sans-serif;
+        white-space: nowrap;
+        font-size: 33px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .botones{
+        width: 820px;
+        text-align: center;
+        margin: 60px;
+        margin-bottom: 2px;
+    }
+
+    .boton-encriptar, .boton-desencriptar{
+        width: 290px;
+        height: 80px;
+        font-size: 53px;
+        font-family: "Truculenta", sans-serif;
+    }
+
+    .recuadro{
+        width: 830px;
+        margin: 40px 3.5% 40px 6%;
+    }
+
+    .img-robot{
+        display: none;
+    }
+
+    .evaluar{
+        width: 780px;
+        font-size: 45px;
+    }
+
+    .no-encontrado{
+        width: 800px;
+        margin: auto;
+        margin-top: 25%;
+    }
+
+    .mensaje-uno{
+        font-size: 55px;
+        white-space: nowrap;
+    }
+
+    .mensaje-dos{
+        font-size: 40px;
+    }
+
+    .boton-copiar{
+        width: 280px;
+        font-size: 53px;
+        font-family: "Truculenta", sans-serif;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .copyright{
+        font-size: 45px;
+        margin-top: 45px;
+    }
+    .git,.linkedin{
+        width: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1200px){
+    body{
+        width: 1025px;
+        height: 100%;
+    
+    }
+    .logo{
+        width: 200px;
+    }
+
+    .titulo-principal{
+        font-size: 70px;
+    }
+
+    main{
+        width: 1025px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+    }
+
+    .encriptador{
+        width: 500px;
+    }
+
+    .encriptar{
+        width: 600px;
+    }
+
+    .instruccion{
+        width: 580px;
+        font-size: 23px;
+        margin-left: 10px;
+        text-align: center; 
+    }
+
+    .botones{
+        width: 600px;
+        margin: 40px 0px 0px 40px;
+    }
+    
+    .boton-encriptar, .boton-desencriptar{
+        font-size: 30px;
+    }
+    .recuadro{
+        width:300px;
+        height: 700px;
+        margin-left: 10%;
+    }
+
+    .img-robot{
+        width: 250px;
+        text-align: center;
+    }
+
+    .evaluar{
+        width: 250px;
+    }
+
+    .no-encontrado{
+        width: 250px;
+    }
+
+    .mensaje-uno{
+        font-size: 40px;
+    }
+
+    .mensaje-dos{
+        font-size: 25px;
+    }
+
+    .boton-copiar{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer{
+        margin: 60px auto;
+        bottom: 0;
+        margin-bottom: -30%;
+    }
+
+    .copyright{
+        font-size: 25px;
+    }
+}
+
