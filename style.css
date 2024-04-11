@@ -274,6 +274,7 @@ footer{
         height: 80px;
         font-size: 53px;
         font-family: "Truculenta", sans-serif;
+        color:rgb(0, 12, 52);
     }
 
     .recuadro{
@@ -312,6 +313,7 @@ footer{
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        color:rgb(0, 12, 52);
     }
 
     .copyright{
@@ -368,6 +370,7 @@ footer{
     
     .boton-encriptar, .boton-desencriptar{
         font-size: 30px;
+        color:rgb(0, 12, 52);
     }
     .recuadro{
         width:300px;
@@ -399,6 +402,7 @@ footer{
     .boton-copiar{
         margin-left: auto;
         margin-right: auto;
+        color:rgb(0, 12, 52);
     }
 
     footer{
